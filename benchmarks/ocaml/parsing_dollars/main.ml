@@ -45,7 +45,7 @@ let feed n action =
       then raise Stop
       else if(!j = 0)
         then (i := !i + 1 ; j := !i ; continue k newline)
-        else j := !j - 1 ; continue k dollar
+        else (j := !j - 1 ; continue k dollar)
 
 let run n =
   sum (fun () -> catch (fun () -> feed n (fun () -> parse 0)))
