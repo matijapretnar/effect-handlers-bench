@@ -1,4 +1,4 @@
-# Short benchmark name
+# Fibonacci recursive
 
 Compute the `n`th fibonacci number in a doubly recursive way.
 
@@ -8,13 +8,13 @@ Compute the `n`th fibonacci number in a doubly recursive way.
 
 Input: 5
 
-Output: 8
+Output: 5
 
 ### Large
 
 Input: 42
 
-Output: 43349443k
+Output: 267914296
 
 ## Metadata
 
